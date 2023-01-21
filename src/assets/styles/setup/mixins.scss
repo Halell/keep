@@ -1,0 +1,11 @@
+@mixin for-mobile-layout {
+    @media (max-width: 600px) {
+        @content;
+    }
+}
+
+@mixin for-nero-layout {
+    @media (max-width: 730px) {
+        @content;
+    }
+}

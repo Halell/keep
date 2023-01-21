@@ -1,13 +1,12 @@
 
 import './assets/styles/styles.scss'
 
-import { KeepApp } from './views/keep-main-page'
+import { MainPage } from './cmp/views/main-page'
 
 function App() {
   return (
     <div className="App">
-      ssssssssss
-      {/* <KeepApp /> */ }
+      <MainPage />
     </div>
   )
 }

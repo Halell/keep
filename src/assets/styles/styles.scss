@@ -1,2 +1,26 @@
+// SETUP
+@import 'setup/typography';
+@import 'setup/variables';
+@import 'setup/mixins';
+@import 'setup/functions';
+
 // BASICS
+@import 'basics/helpers';
 @import 'basics/base';
+@import 'basics/layout';
+
+/* Views */
+@import 'views/main-page';
+
+/* Cmp */
+
+@import 'cmp/header-right-tools';
+@import 'cmp/header-search-box';
+@import 'cmp/header-middle-tools';
+@import 'cmp/header-left-tools';
+@import 'cmp/header-main';
+@import 'cmp/side-bar';
+@import 'cmp/compose';
+@import 'cmp/note';
+@import 'cmp/clr-picker';
+@import 'cmp/icons';

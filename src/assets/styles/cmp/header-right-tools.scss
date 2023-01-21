@@ -1,0 +1,47 @@
+.header-right-tools {
+    position: relative;
+    margin-right: 2px;
+    min-width: 240px;
+}
+
+.menu-humbugger {
+    width: 25px;
+    padding-top: 12px;
+    margin: 0 10px;
+}
+
+
+
+.header-title {
+    font-size: 1.5rem;
+    color: #5f6368;
+    padding-right: 5px;
+}
+
+.header-title-icon-img {
+    width: 40px;
+}
+
+.header-right-tools>.container {
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+
+    .header-right-tools {
+        position: relative;
+        margin-right: 2px;
+        min-width: 150px;
+    }
+
+    .header-title-icon {
+        width: 100px;
+    }
+
+    .menu-humbugger {
+        width: 30px;
+        padding-top: 12px;
+        margin: 0 10px;
+
+    }
+}

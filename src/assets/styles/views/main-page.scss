@@ -1,0 +1,53 @@
+.App {
+
+    .main-app {
+        height: 100vh;
+
+        .header-main-container {
+            border-bottom: 0.1px solid rgb(208 207 207);
+            justify-content: space-between;
+            padding: 7px;
+        }
+
+        .container {
+            .side-bar {
+                padding-top: 8px;
+                min-width: 280px;
+                letter-spacing: .01785714em;
+            }
+
+            .main-section {
+                width: 100%;
+
+                .notes-area {
+                    margin-right: 20px;
+                    margin-top: 30px;
+                    column-count: 4;
+                    column-width: 260px;
+                }
+            }
+
+            @include for-mobile-layout {
+                .side-bar {
+                    min-width: 66px;
+                    letter-spacing: .01785714em;
+                }
+
+                .main-section {
+                    column-count: 1;
+                    column-width: 100%;
+
+                    .notes-area {
+                        margin-top: 32px;
+                        column-count: 1;
+                        column-width: 100%;
+                    }
+                }
+
+                .header-main-container {
+                    border-bottom: none
+                }
+            }
+        }
+    }
+}
